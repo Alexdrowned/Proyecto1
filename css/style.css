@@ -1,0 +1,34 @@
+ul{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background-color:#FCA458;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+}
+
+/*Vale kk no me lo quiere subir al remoto de git*/
+li {
+    border: #FAFCE3 3px solid;
+    border-radius: 20px;
+}
+
+.right li:hover{
+    background-color: #FC585D;
+    text-decoration: underline;
+}
+.right{
+    padding-top: 15px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    height: 25px;
+}
+
+.left{
+    padding-top: 5px;
+    font-size: 35px;
+    height: 85px;
+    width: 200px;
+}
