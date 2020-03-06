@@ -4,16 +4,24 @@
               <meta charset="UTF-8"/>
               <title>Inicio</title>
               <link rel="stylesheet" href="../css/style.css">
+              <link rel="stylesheet" href="../css/stylelogin.css">
             </head>
             <body>
                 <header>
+                  <ul>
+                  <li class="left">MUSIC FOR YOU</li>
+                  <div class="right">
+                      <li>Home</li>
+                      <li>Portafolio</li>
+                      <li>Blog</li>
+                      <li>Contact</li>
+                      <li>Log in</li>
+                  </div>
                 </header>
-                <h1>Seguridad</h1>
-                <h2>Bienvenidos</h2>
-               
+                <div class="login">
                   <article>
-                    <form action="..\Programs\PHP\Home.php" method="POST">
-                        <label>Inicia Sesion</label> <br/>
+                    <form action="" method="POST">
+                        <label><h2>Inicia Sesion</h2></label> <br/>
                         <label>Usuario: </label> <br/>
                         <input type="text" name="User" maxlength="20" size="15" /> <br/>
                         <label>Contraseña: </label> <br/>
@@ -21,7 +29,9 @@
                         <input type="submit" value="Iniciar" />  
                     </form>
                   </article>
-                    <aside id="derecha">
+                </div>
+                  
+                    <!-- <aside id="derecha">
                       <form action="..\Programs\PHP\HomeRegistro.php" method="POST">
                         <br/>
                         <label>Registrar Usuario</label> <br/>
@@ -32,8 +42,6 @@
                         <input type="submit" value="Registrar"/>   
                       </form>
                       <small>El usuario y la contraseña solo aceptan letras, numeros y un maximo de 20 caracteres</small>                     
-                    </aside>
-                     
-                  
+                    </aside> -->
             </body>
           </html>
