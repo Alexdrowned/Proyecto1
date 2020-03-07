@@ -128,7 +128,7 @@
     text-decoration: none;
   }
   
-  /*Footer*/
+  /*Footer Home*/
   
   .foot{
     margin-top: 50px;
@@ -138,4 +138,38 @@
     background-color: #FCA458;
     text-align: center;
   }
-  
+
+/*Portafolio*/
+.generes{
+    height: 1900px;
+    padding-right: 35px;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #fafce3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.generes li{
+    font-size: 3em;
+    border-color: #FCA458;
+}
+
+.particularGenereLeft{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.particularGenereRigth{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.particularGenere h3{
+    justify-items: center;
+}
