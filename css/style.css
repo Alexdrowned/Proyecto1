@@ -51,7 +51,19 @@
   
   
   /*Inicio/Home*/
-  
+  @media only screen and (min-widht: 600px){
+    body{
+        background-color: #FAFCE3;
+    }
+  }
+
+  @media only screen and (max-widht: 599px){
+    body{
+        background-color: #EBFCA1;
+    }
+  }
+
+
   ul{
       margin: 0px;
       display: grid;
@@ -64,7 +76,7 @@
   
   /*Vale kk no me lo quiere subir al remoto de git*/
   li {
-      border: #FAFCE3 3px solid;
+      border: #FAFCE3 3px solid; 
       border-radius: 20px;
   }
   
@@ -173,3 +185,40 @@
 .particularGenere h3{
     justify-items: center;
 }
+/*Blog*/
+
+
+.news{
+  height: 1900px;
+  padding-right: 35px;
+  justify-content: center;
+  justify-content: space-between;
+  background-color: #fafce3;
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.news li{
+  font-size: 3em;
+  border-color: #FCA458;
+}
+
+.particularNewsLeft{
+  display: grid;
+  grid-template-columns: 60% 40%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.particularNewsRight{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding-top: 10px;
+  padding-bottom: 50px;
+}
+
+.particularNews h3{
+  justify-items: center;
+}
+
